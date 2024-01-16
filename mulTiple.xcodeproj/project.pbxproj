@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E09A2552B5477CD002A5CB4 /* CommonAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E09A2542B5477CD002A5CB4 /* CommonAssets.xcassets */; };
+		1E2A2F372B570D0E00FD5F6C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1E6ECF6E2B545DC30094F275 /* Localizable.xcstrings */; };
+		1E2A2F382B570D0E00FD5F6C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1E6ECF6E2B545DC30094F275 /* Localizable.xcstrings */; };
 		1E558B1F2B49F5CD00B790C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B1E2B49F5CD00B790C0 /* AppDelegate.swift */; };
 		1E558B212B49F5CD00B790C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B202B49F5CD00B790C0 /* SceneDelegate.swift */; };
 		1E558B232B49F5CD00B790C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B222B49F5CD00B790C0 /* ViewController.swift */; };
-		1E558B262B49F5CD00B790C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E558B242B49F5CD00B790C0 /* Main.storyboard */; };
 		1E558B282B49F5CE00B790C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E558B272B49F5CE00B790C0 /* Assets.xcassets */; };
-		1E558B2B2B49F5CE00B790C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E558B292B49F5CE00B790C0 /* LaunchScreen.storyboard */; };
 		1E558B362B49F5CE00B790C0 /* mulTipleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B352B49F5CE00B790C0 /* mulTipleTests.swift */; };
 		1E558B402B49F5CE00B790C0 /* mulTipleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B3F2B49F5CE00B790C0 /* mulTipleUITests.swift */; };
 		1E558B422B49F5CE00B790C0 /* mulTipleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B412B49F5CE00B790C0 /* mulTipleUITestsLaunchTests.swift */; };
+		1E6C544B2B56F44200775FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B222B49F5CD00B790C0 /* ViewController.swift */; };
+		1E6C544C2B56F44200775FA1 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6ECF652B544D170094F275 /* EmployeeCell.swift */; };
+		1E6C544D2B56F44200775FA1 /* EmployeeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6ECF672B544D330094F275 /* EmployeeImageView.swift */; };
+		1E6C544E2B56F44200775FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B1E2B49F5CD00B790C0 /* AppDelegate.swift */; };
+		1E6C544F2B56F44200775FA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E558B202B49F5CD00B790C0 /* SceneDelegate.swift */; };
+		1E6C54532B56F44200775FA1 /* CommonAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E09A2542B5477CD002A5CB4 /* CommonAssets.xcassets */; };
+		1E6C54602B56FCA400775FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C545C2B56FAB200775FA1 /* Assets.xcassets */; };
+		1E6C54642B57045500775FA1 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C54632B57045500775FA1 /* AppConfig.swift */; };
+		1E6C54652B57045500775FA1 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C54632B57045500775FA1 /* AppConfig.swift */; };
+		1E6C54662B57069500775FA1 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C54612B5702C200775FA1 /* Config.xcconfig */; };
+		1E6C54672B57069700775FA1 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C54622B5702CE00775FA1 /* Config.xcconfig */; };
+		1E6ECF662B544D170094F275 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6ECF652B544D170094F275 /* EmployeeCell.swift */; };
+		1E6ECF682B544D330094F275 /* EmployeeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6ECF672B544D330094F275 /* EmployeeImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +50,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E558B1B2B49F5CD00B790C0 /* mulTiple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mulTiple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E09A2542B5477CD002A5CB4 /* CommonAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CommonAssets.xcassets; sourceTree = "<group>"; };
+		1E558B1B2B49F5CD00B790C0 /* Customer Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customer Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E558B1E2B49F5CD00B790C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E558B202B49F5CD00B790C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1E558B222B49F5CD00B790C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E558B252B49F5CD00B790C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E558B272B49F5CE00B790C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E558B2A2B49F5CE00B790C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E558B2C2B49F5CE00B790C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E558B312B49F5CE00B790C0 /* mulTipleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mulTipleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E558B352B49F5CE00B790C0 /* mulTipleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mulTipleTests.swift; sourceTree = "<group>"; };
 		1E558B3B2B49F5CE00B790C0 /* mulTipleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mulTipleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E558B3F2B49F5CE00B790C0 /* mulTipleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mulTipleUITests.swift; sourceTree = "<group>"; };
 		1E558B412B49F5CE00B790C0 /* mulTipleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mulTipleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E6C54592B56F44200775FA1 /* Krusty Krab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Krusty Krab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6C545C2B56FAB200775FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E6C545E2B56FB4500775FA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6C54612B5702C200775FA1 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		1E6C54622B5702CE00775FA1 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		1E6C54632B57045500775FA1 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		1E6ECF652B544D170094F275 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		1E6ECF672B544D330094F275 /* EmployeeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeImageView.swift; sourceTree = "<group>"; };
+		1E6ECF6E2B545DC30094F275 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +95,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E6C54502B56F44200775FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E09A24F2B54777E002A5CB4 /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				1E6C545B2B56FA8B00775FA1 /* Krusty Krab */,
+				1E09A2502B547784002A5CB4 /* Customer Demo */,
+			);
+			path = Customers;
+			sourceTree = "<group>";
+		};
+		1E09A2502B547784002A5CB4 /* Customer Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1E558B272B49F5CE00B790C0 /* Assets.xcassets */,
+				1E558B2C2B49F5CE00B790C0 /* Info.plist */,
+				1E6C54622B5702CE00775FA1 /* Config.xcconfig */,
+			);
+			path = "Customer Demo";
+			sourceTree = "<group>";
+		};
 		1E558B122B49F5CD00B790C0 = {
 			isa = PBXGroup;
 			children = (
 				1E558B1D2B49F5CD00B790C0 /* mulTiple */,
+				1E09A24F2B54777E002A5CB4 /* Customers */,
 				1E558B342B49F5CE00B790C0 /* mulTipleTests */,
 				1E558B3E2B49F5CE00B790C0 /* mulTipleUITests */,
 				1E558B1C2B49F5CD00B790C0 /* Products */,
@@ -89,9 +138,10 @@
 		1E558B1C2B49F5CD00B790C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E558B1B2B49F5CD00B790C0 /* mulTiple.app */,
+				1E558B1B2B49F5CD00B790C0 /* Customer Demo.app */,
 				1E558B312B49F5CE00B790C0 /* mulTipleTests.xctest */,
 				1E558B3B2B49F5CE00B790C0 /* mulTipleUITests.xctest */,
+				1E6C54592B56F44200775FA1 /* Krusty Krab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +152,11 @@
 				1E558B1E2B49F5CD00B790C0 /* AppDelegate.swift */,
 				1E558B202B49F5CD00B790C0 /* SceneDelegate.swift */,
 				1E558B222B49F5CD00B790C0 /* ViewController.swift */,
-				1E558B242B49F5CD00B790C0 /* Main.storyboard */,
-				1E558B272B49F5CE00B790C0 /* Assets.xcassets */,
-				1E558B292B49F5CE00B790C0 /* LaunchScreen.storyboard */,
-				1E558B2C2B49F5CE00B790C0 /* Info.plist */,
+				1E6ECF652B544D170094F275 /* EmployeeCell.swift */,
+				1E6ECF672B544D330094F275 /* EmployeeImageView.swift */,
+				1E6C54632B57045500775FA1 /* AppConfig.swift */,
+				1E6ECF6E2B545DC30094F275 /* Localizable.xcstrings */,
+				1E09A2542B5477CD002A5CB4 /* CommonAssets.xcassets */,
 			);
 			path = mulTiple;
 			sourceTree = "<group>";
@@ -127,12 +178,22 @@
 			path = mulTipleUITests;
 			sourceTree = "<group>";
 		};
+		1E6C545B2B56FA8B00775FA1 /* Krusty Krab */ = {
+			isa = PBXGroup;
+			children = (
+				1E6C545C2B56FAB200775FA1 /* Assets.xcassets */,
+				1E6C545E2B56FB4500775FA1 /* Info.plist */,
+				1E6C54612B5702C200775FA1 /* Config.xcconfig */,
+			);
+			path = "Krusty Krab";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E558B1A2B49F5CD00B790C0 /* mulTiple */ = {
+		1E558B1A2B49F5CD00B790C0 /* Customer Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E558B452B49F5CE00B790C0 /* Build configuration list for PBXNativeTarget "mulTiple" */;
+			buildConfigurationList = 1E558B452B49F5CE00B790C0 /* Build configuration list for PBXNativeTarget "Customer Demo" */;
 			buildPhases = (
 				1E558B172B49F5CD00B790C0 /* Sources */,
 				1E558B182B49F5CD00B790C0 /* Frameworks */,
@@ -142,9 +203,9 @@
 			);
 			dependencies = (
 			);
-			name = mulTiple;
+			name = "Customer Demo";
 			productName = mulTiple;
-			productReference = 1E558B1B2B49F5CD00B790C0 /* mulTiple.app */;
+			productReference = 1E558B1B2B49F5CD00B790C0 /* Customer Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1E558B302B49F5CE00B790C0 /* mulTipleTests */ = {
@@ -183,6 +244,23 @@
 			productReference = 1E558B3B2B49F5CE00B790C0 /* mulTipleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1E6C54492B56F44200775FA1 /* Krusty Krab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6C54562B56F44200775FA1 /* Build configuration list for PBXNativeTarget "Krusty Krab" */;
+			buildPhases = (
+				1E6C544A2B56F44200775FA1 /* Sources */,
+				1E6C54502B56F44200775FA1 /* Frameworks */,
+				1E6C54512B56F44200775FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Krusty Krab";
+			productName = mulTiple;
+			productReference = 1E6C54592B56F44200775FA1 /* Krusty Krab.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,14 +290,15 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				tr,
 			);
 			mainGroup = 1E558B122B49F5CD00B790C0;
 			productRefGroup = 1E558B1C2B49F5CD00B790C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E558B1A2B49F5CD00B790C0 /* mulTiple */,
+				1E558B1A2B49F5CD00B790C0 /* Customer Demo */,
+				1E6C54492B56F44200775FA1 /* Krusty Krab */,
 				1E558B302B49F5CE00B790C0 /* mulTipleTests */,
 				1E558B3A2B49F5CE00B790C0 /* mulTipleUITests */,
 			);
@@ -231,9 +310,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E558B2B2B49F5CE00B790C0 /* LaunchScreen.storyboard in Resources */,
 				1E558B282B49F5CE00B790C0 /* Assets.xcassets in Resources */,
-				1E558B262B49F5CD00B790C0 /* Main.storyboard in Resources */,
+				1E6C54672B57069700775FA1 /* Config.xcconfig in Resources */,
+				1E2A2F382B570D0E00FD5F6C /* Localizable.xcstrings in Resources */,
+				1E09A2552B5477CD002A5CB4 /* CommonAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +331,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E6C54512B56F44200775FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6C54662B57069500775FA1 /* Config.xcconfig in Resources */,
+				1E6C54532B56F44200775FA1 /* CommonAssets.xcassets in Resources */,
+				1E2A2F372B570D0E00FD5F6C /* Localizable.xcstrings in Resources */,
+				1E6C54602B56FCA400775FA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E558B232B49F5CD00B790C0 /* ViewController.swift in Sources */,
+				1E6ECF662B544D170094F275 /* EmployeeCell.swift in Sources */,
+				1E6ECF682B544D330094F275 /* EmployeeImageView.swift in Sources */,
+				1E6C54642B57045500775FA1 /* AppConfig.swift in Sources */,
 				1E558B1F2B49F5CD00B790C0 /* AppDelegate.swift in Sources */,
 				1E558B212B49F5CD00B790C0 /* SceneDelegate.swift in Sources */,
 			);
@@ -281,39 +375,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E6C544A2B56F44200775FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6C544B2B56F44200775FA1 /* ViewController.swift in Sources */,
+				1E6C544C2B56F44200775FA1 /* EmployeeCell.swift in Sources */,
+				1E6C544D2B56F44200775FA1 /* EmployeeImageView.swift in Sources */,
+				1E6C54652B57045500775FA1 /* AppConfig.swift in Sources */,
+				1E6C544E2B56F44200775FA1 /* AppDelegate.swift in Sources */,
+				1E6C544F2B56F44200775FA1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		1E558B332B49F5CE00B790C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E558B1A2B49F5CD00B790C0 /* mulTiple */;
+			target = 1E558B1A2B49F5CD00B790C0 /* Customer Demo */;
 			targetProxy = 1E558B322B49F5CE00B790C0 /* PBXContainerItemProxy */;
 		};
 		1E558B3D2B49F5CE00B790C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E558B1A2B49F5CD00B790C0 /* mulTiple */;
+			target = 1E558B1A2B49F5CD00B790C0 /* Customer Demo */;
 			targetProxy = 1E558B3C2B49F5CE00B790C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1E558B242B49F5CD00B790C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E558B252B49F5CD00B790C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1E558B292B49F5CE00B790C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E558B2A2B49F5CE00B790C0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1E558B432B49F5CE00B790C0 /* Debug */ = {
@@ -437,6 +525,7 @@
 		};
 		1E558B462B49F5CE00B790C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6C54622B5702CE00775FA1 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,10 +533,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W35MT3Z3FQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mulTiple/Info.plist;
+				INFOPLIST_FILE = "Customers/Customer Demo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Customer Demo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,7 +544,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = emirhankarahan.mulTiple;
+				PRODUCT_BUNDLE_IDENTIFIER = emirhankarahan.customerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,6 +554,7 @@
 		};
 		1E558B472B49F5CE00B790C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6C54622B5702CE00775FA1 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,10 +562,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W35MT3Z3FQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mulTiple/Info.plist;
+				INFOPLIST_FILE = "Customers/Customer Demo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Customer Demo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,7 +573,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = emirhankarahan.mulTiple;
+				PRODUCT_BUNDLE_IDENTIFIER = emirhankarahan.customerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -567,6 +657,64 @@
 			};
 			name = Release;
 		};
+		1E6C54572B56F44200775FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6C54612B5702C200775FA1 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W35MT3Z3FQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Customers/Krusty Krab/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Krusty Krab";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirhankarahan.krustykrab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E6C54582B56F44200775FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6C54612B5702C200775FA1 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W35MT3Z3FQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Customers/Krusty Krab/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Krusty Krab";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirhankarahan.krustykrab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,7 +727,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E558B452B49F5CE00B790C0 /* Build configuration list for PBXNativeTarget "mulTiple" */ = {
+		1E558B452B49F5CE00B790C0 /* Build configuration list for PBXNativeTarget "Customer Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E558B462B49F5CE00B790C0 /* Debug */,
@@ -602,6 +750,15 @@
 			buildConfigurations = (
 				1E558B4C2B49F5CE00B790C0 /* Debug */,
 				1E558B4D2B49F5CE00B790C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6C54562B56F44200775FA1 /* Build configuration list for PBXNativeTarget "Krusty Krab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6C54572B56F44200775FA1 /* Debug */,
+				1E6C54582B56F44200775FA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
