@@ -10,4 +10,4 @@ Not clear enough? It will become clearer after we see the example we're about to
 If you've added a watch application, a widget, or a test to your app before, it means you've added a target before. 
 Today, by adding an application as a target, we will manage our code for similar applications from a single codebase.
 
-Still interested in? Read related blog post [here](https://medium.com/@emirhankarahan).
+Still interested in? Read related blog post [here-hashnode](https://blog.emirhankarahan.com/multiple-apps-from-one-codebase-targets-in-xcode). or [here-medium](https://medium.com/@emirhankarahan)
